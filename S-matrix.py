@@ -1,17 +1,4 @@
 from IM import *
-import matplotlib.colors as colors
-import scipy.io
-import scipy.sparse
-import numpy as np
-import pandas as pd
-import numpy.ma as ma
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-import matplotlib.collections
-from matplotlib.colors import ListedColormap
-from matplotlib import animation
-import matplotlib.cm as cm
-from IPython import display
 
 matplotlib.rcParams.update({
     'pgf.rcfonts': False,
