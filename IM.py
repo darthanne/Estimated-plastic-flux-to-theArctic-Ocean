@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #Packages imported for initialising of code
 
 #Import
@@ -25,3 +24,9 @@ from shapely.ops import unary_union
 from shapely.prepared import prep
 from shapely.geometry import Polygon, Point
 import math
+from matplotlib import animation
+import matplotlib.cm as cm
+from IPython import display
+import matplotlib.colors as colors
+import matplotlib.patches as patches
+
