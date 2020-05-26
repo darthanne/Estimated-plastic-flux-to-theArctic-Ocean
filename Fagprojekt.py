@@ -1,24 +1,7 @@
-import scipy.io
-import scipy.sparse
-import numpy as np
-import pandas as pd
-import numpy.ma as ma
-import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap
-from matplotlib import animation
-import matplotlib.cm as cm
-from IPython import display
-import matplotlib.colors as colors
-import matplotlib.patches as patches
+from IM import*
+from FindShore_function import isShore
 
-from FindShore import isShore
-
-
-
-#
 # Inputs
-#
-
 # P-Matrices
 P1 = scipy.io.loadmat('P1.mat')['P1'].tocsr()
 P2 = scipy.io.loadmat('P2.mat')['ans'].tocsr()
