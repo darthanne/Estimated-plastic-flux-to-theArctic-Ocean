@@ -29,4 +29,6 @@ import matplotlib.cm as cm
 from IPython import display
 import matplotlib.colors as colors
 import matplotlib.patches as patches
+import matplotlib.collections
+from IPython import display
 
