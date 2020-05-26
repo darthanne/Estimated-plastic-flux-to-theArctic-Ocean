@@ -1,7 +1,4 @@
-import scipy.io
-import scipy.sparse
-
-
+from IM import *
 
 # P-Matrices
 P1 = scipy.io.loadmat('P1.mat')['P1'].tocsr()
