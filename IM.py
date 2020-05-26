@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Apr  1 14:49:24 2020
-
-@author: annes
-"""
+#Packages imported for initialising of code
 
 #Import
 import fiona
