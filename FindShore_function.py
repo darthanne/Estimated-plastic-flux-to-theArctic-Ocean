@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def isShore(land, y, x):
     n = 1
 
